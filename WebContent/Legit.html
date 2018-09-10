@@ -29,7 +29,7 @@ function callAjax(url, callback){
             callback(xmlhttp.response);
         }
     }
-    xmlhttp.open("POST", url, true);
+    xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
 
